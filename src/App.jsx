@@ -13,6 +13,7 @@ function App() {
     <div style={{ textAlign: 'center', fontFamily: 'sans-serif' }}>
       <h1>Megan Nguyen</h1>
       <p>software engineer</p>
+      <p>⊹₊⟡⋆˚₊‧꒰ა ❤︎ ໒꒱ ‧₊˚⋆⟡₊⊹</p>
 
       <div ref={sketchRef} />
 
