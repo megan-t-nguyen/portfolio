@@ -15,7 +15,7 @@ export default function App() {
       <Home />
       <div ref={sketchRef} />
       <p>
-        <a href="/portfolio/star-run"> ᯓ☆ play star run →</a>
+        <a href="/portfolio/#/star-run"> ᯓ☆ play star run →</a>
       </p>
     </div>
   );
