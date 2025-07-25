@@ -1,7 +1,8 @@
-import { useEffect, useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import { BouncingStar } from './sketches/BouncingStar';
+import Home from './components/Home';
 
-function App() {
+export default function App() {
   const sketchRef = useRef(null);
 
   useEffect(() => {
@@ -11,17 +12,11 @@ function App() {
 
   return (
     <div style={{ textAlign: 'center', fontFamily: 'sans-serif' }}>
-      <h1>Megan Nguyen</h1>
-      <p>software engineer</p>
-      <p>⊹₊⟡⋆˚₊‧꒰ა ❤︎ ໒꒱ ‧₊˚⋆⟡₊⊹</p>
-
+      <Home />
       <div ref={sketchRef} />
-
       <p>
-         <a href="https://megan-nguyen-resume.netlify.app/" target="_blank">⋆｡°✩ view my resume!</a><br />
+        <a href="/portfolio/star-run"> ᯓ☆ play star run →</a>
       </p>
     </div>
   );
 }
-
-export default App;
